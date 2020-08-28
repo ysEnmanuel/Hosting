@@ -1,0 +1,1773 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- Mirrored from html.crumina.net/hostsite/05_dedicated_server.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jul 2020 06:30:00 GMT -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>HOSTSight - Dedicated Host</title>
+
+	<link rel="stylesheet" type="text/css" href="css/vendors/Bootstrap/bootstrap.min.css">
+
+
+	<link href="css/plugins/navigation.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/main.min.css">
+	<link rel="stylesheet" type="text/css" href="css/theme-font.min.css">
+
+	<!--Styles for RTL-->
+
+	<!--<link rel="stylesheet" type="text/css" href="css/rtl.min.css">-->
+
+</head>
+<body>
+
+<!-- Preloader -->
+
+<!--<div id="hellopreloader">
+	<div class="preloader">
+		<svg width="58" height="58" viewBox="0 0 58 58" xmlns="http://www.w3.org/2000/svg">
+			<g fill="none" fill-rule="evenodd">
+				<g transform="translate(2 1)" stroke="#FFF" stroke-width="1.5">
+					<circle cx="42.601" cy="11.462" r="5" fill-opacity="1" fill="#fff">
+						<animate attributeName="fill-opacity"
+								 begin="0s" dur="1.3s"
+								 values="1;0;0;0;0;0;0;0" calcMode="linear"
+								 repeatCount="indefinite" />
+					</circle>
+					<circle cx="49.063" cy="27.063" r="5" fill-opacity="0" fill="#fff">
+						<animate attributeName="fill-opacity"
+								 begin="0s" dur="1.3s"
+								 values="0;1;0;0;0;0;0;0" calcMode="linear"
+								 repeatCount="indefinite" />
+					</circle>
+					<circle cx="42.601" cy="42.663" r="5" fill-opacity="0" fill="#fff">
+						<animate attributeName="fill-opacity"
+								 begin="0s" dur="1.3s"
+								 values="0;0;1;0;0;0;0;0" calcMode="linear"
+								 repeatCount="indefinite" />
+					</circle>
+					<circle cx="27" cy="49.125" r="5" fill-opacity="0" fill="#fff">
+						<animate attributeName="fill-opacity"
+								 begin="0s" dur="1.3s"
+								 values="0;0;0;1;0;0;0;0" calcMode="linear"
+								 repeatCount="indefinite" />
+					</circle>
+					<circle cx="11.399" cy="42.663" r="5" fill-opacity="0" fill="#fff">
+						<animate attributeName="fill-opacity"
+								 begin="0s" dur="1.3s"
+								 values="0;0;0;0;1;0;0;0" calcMode="linear"
+								 repeatCount="indefinite" />
+					</circle>
+					<circle cx="4.938" cy="27.063" r="5" fill-opacity="0" fill="#fff">
+						<animate attributeName="fill-opacity"
+								 begin="0s" dur="1.3s"
+								 values="0;0;0;0;0;1;0;0" calcMode="linear"
+								 repeatCount="indefinite" />
+					</circle>
+					<circle cx="11.399" cy="11.462" r="5" fill-opacity="0" fill="#fff">
+						<animate attributeName="fill-opacity"
+								 begin="0s" dur="1.3s"
+								 values="0;0;0;0;0;0;1;0" calcMode="linear"
+								 repeatCount="indefinite" />
+					</circle>
+					<circle cx="27" cy="5" r="5" fill-opacity="0" fill="#fff">
+						<animate attributeName="fill-opacity"
+								 begin="0s" dur="1.3s"
+								 values="0;0;0;0;0;0;0;1" calcMode="linear"
+								 repeatCount="indefinite" />
+					</circle>
+				</g>
+			</g>
+		</svg>
+	</div>
+</div>-->
+
+<!-- ... end Preloader -->
+
+
+<!-- Main Header -->
+
+<nav id="navigation" class="site-header navigation navigation-justified header--sticky">
+	<div class="container">
+		<div class="navigation-header">
+			<div class="navigation-logo">
+				<a href="index-2.html">
+
+
+					<img loading="lazy" src="img/demo-content/logo-white.png" alt="logo">
+
+				</a>
+			</div>
+			<div class="navigation-button-toggler">
+				<i class="hamburger-icon"></i>
+			</div>
+		</div>
+		<div class="navigation-body">
+			<div class="navigation-body-header">
+				<div class="navigation-logo">
+					<a href="index-2.html">
+
+
+						<img loading="lazy" src="img/demo-content/logo-white.png" alt="logo">
+
+					</a>
+				</div>
+				<span class="navigation-body-close-button">&#10005;</span>
+			</div>
+			<ul class="navigation-menu">
+				<li class="navigation-item is-active">
+					<a class="navigation-link" href="#">Hosting</a>
+					<div class="navigation-megamenu">
+						<div class="navigation-megamenu-container">
+							<div class="navigation-row">
+								<div class="navigation-col">
+									<a href="02_wp_host.html" class="navigation-hosting-item border-primary-themes">
+
+
+										<img class="navigation-hosting-item-img " loading="lazy" src="img/demo-content/navigation-hostings/hosting1.png" alt="hosting">
+
+										WordPress Hosting
+									</a>
+								</div>
+								<div class="navigation-col">
+									<a href="03_shared_host.html" class="navigation-hosting-item border-red-themes">
+
+
+										<img class="navigation-hosting-item-img " loading="lazy" src="img/demo-content/navigation-hostings/hosting2.png" alt="hosting">
+
+										Shared Hosting
+									</a>
+								</div>
+								<div class="navigation-col">
+									<a href="04_vps_host.html" class="navigation-hosting-item border-orange-themes">
+
+
+										<img class="navigation-hosting-item-img " loading="lazy" src="img/demo-content/navigation-hostings/hosting3.png" alt="hosting">
+
+										VPS Hosting
+									</a>
+								</div>
+								<div class="navigation-col">
+									<a href="05_dedicated_server.html" class="navigation-hosting-item border-yellow-themes">
+
+
+										<img class="navigation-hosting-item-img " loading="lazy" src="img/demo-content/navigation-hostings/hosting4.png" alt="hosting">
+
+										Dedicated Server
+									</a>
+								</div>
+								<div class="navigation-col">
+									<a href="06_cloud_hosting.html" class="navigation-hosting-item border-blue-themes">
+
+
+										<img class="navigation-hosting-item-img " loading="lazy" src="img/demo-content/navigation-hostings/hosting5.png" alt="hosting">
+
+										Cloud Hosting
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="navigation-item">
+					<a class="navigation-link" href="#">Domain</a>
+					<ul class="navigation-dropdown">
+						<li class="navigation-dropdown-item">
+							<a class="navigation-dropdown-link" href="07_domains.html">Domains</a>
+						</li>
+						<li class="navigation-dropdown-item">
+							<a class="navigation-dropdown-link" href="08_domain_checking.html">Domain Checking</a>
+						</li>
+						<li class="navigation-dropdown-item">
+							<a class="navigation-dropdown-link" href="#">
+								Status Pages
+								<span class="submenu-indicator"></span>
+							</a>
+							<ul class="navigation-dropdown">
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="18_status_page.html">Status Page</a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="19_incident_history.html">Incident History</a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="20_operational.html">Operational</a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="21_degraded_performance.html">Degraded Performance</a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="22_planned_maintenance.html">Planned Maintenance</a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="23_subscribe_pop_up.html">Subscribe Popup</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="navigation-item">
+					<a class="navigation-link" href="#">Pages</a>
+					<div class="navigation-megamenu navigation-megamenu-half">
+						<div class="navigation-megamenu-container">
+							<div class="navigation-row">
+								<div class="navigation-col">
+									<ul class="navigation-list">
+										<li class="navigation-list-heading">
+											Standard Pages
+											<span class="navigation-list-subheading">Pages that every website needs.</span>
+										</li>
+										<li><a href="09_about.html">About Us</a></li>
+										<li><a href="25_testimonials.html">Testimonials</a></li>
+										<li><a href="27_pricing_tables.html">Pricing Packages</a></li>
+										<li><a href="18_status_page.html">Status Page</a></li>
+										<li><a href="16_blog_details.html">Post Details</a></li>
+										<li><a href="24_error.html">Error 404</a></li>
+									</ul>
+								</div>
+								<div class="navigation-col">
+									<ul class="navigation-list">
+										<li class="navigation-list-heading">
+											Web Elements
+											<span class="navigation-list-subheading">Awesome header and title style variations and many more.</span>
+										</li>
+										<li><a href="31_typography.html">Typography</a></li>
+										<li><a href="26_tabs_and_accordions.html">Tabs & Accordions</a></li>
+										<li><a href="30_tables.html">Tables</a></li>
+										<li><a href="28_infographic.html">Infographic</a></li>
+										<li><a href="32_buttons.html">Buttons</a></li>
+										<li><a href="29_forms.html">Forms</a></li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="navigation-item">
+					<a class="navigation-link" href="#">
+						Support
+					</a>
+					<ul class="navigation-dropdown">
+						<li class="navigation-dropdown-item">
+							<a class="navigation-dropdown-link" href="14_submit_a_request.html">Submit a Request</a>
+						</li>
+						<li class="navigation-dropdown-item">
+							<a class="navigation-dropdown-link" href="#">
+								Knowledge Base
+								<span class="submenu-indicator"></span>
+							</a>
+							<ul class="navigation-dropdown">
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="10_knowledge_base.html">Getting Started</a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="11_knowledge_base_domains.html">Hosting</a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="#">
+										Domains
+										<span class="submenu-indicator submenu-indicator-left"></span>
+									</a>
+									<ul class="navigation-dropdown navigation-dropdown-left">
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#">Vue</a>
+										</li>
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#">React</a>
+										</li>
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#">Ember</a>
+										</li>
+										<li class="navigation-dropdown-item">
+											<a class="navigation-dropdown-link" href="#">
+												Angular
+												<span class="submenu-indicator submenu-indicator-left"></span>
+											</a>
+											<ul class="navigation-dropdown navigation-dropdown-left">
+												<li class="navigation-dropdown-item">
+													<a class="navigation-dropdown-link" href="#">Angular</a>
+												</li>
+												<li class="navigation-dropdown-item">
+													<a class="navigation-dropdown-link" href="#">Angular 2</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="12_knowledge_base_domain_articles.html">General</a>
+								</li>
+								<li class="navigation-dropdown-item">
+									<a class="navigation-dropdown-link" href="13_knowledge_base_domain_article_details.html">Articles</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="navigation-item">
+					<a class="navigation-link" href="15_blog.html">Blog</a>
+				</li>
+				<li class="navigation-item">
+					<a class="navigation-link" href="17_contacts.html">Contacts</a>
+				</li>
+			</ul>
+			<div class="navigation-body-section navigation-additional-menu">
+				<a href="#" class="crumina-button button--green button--xs">Trial Period</a>
+				<div class="navigation-search">
+					<div class="link-modal-popup" data-toggle="modal" data-target="#popupSearch"></div>
+					<svg class="crumina-icon">
+						<use xlink:href="#icon-search"></use>
+					</svg>
+				</div>
+				<div class="navigation-user-menu">
+					<div class="link-modal-popup" data-toggle="modal" data-target="#userMenuPopup"></div>
+					<svg class="crumina-icon">
+						<use xlink:href="#icon-user-menu"></use>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- ... end Main Header -->
+
+
+<!-- Popup Search -->
+
+<div class="modal fade window-popup popup-search" id="popupSearch" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="modal-close-btn-wrapper">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+								<svg class="crumina-icon">
+									<use xlink:href="#icon-close"></use>
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-body">
+				<div class="navigation-search-popup">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 m-auto">
+								<h2 class="fw-medium text-white">WHAT ARE YOU LOOKING FOR?</h2>
+								<form class="search-popup-form">
+									<div class="input-btn--inline">
+										<input class="input--dark" type="text" placeholder="Choose your new web address…">
+										<button type="button" class="crumina-button button--primary button--l">SEARCH</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Popup Search -->
+
+
+<!-- User Menu Popup -->
+
+<div class="modal fade window-popup user-menu-popup" id="userMenuPopup" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="modal-close-btn-wrapper">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+								<svg class="crumina-icon">
+									<use xlink:href="#icon-close"></use>
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-body">
+				<div class="user-menu">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 m-auto">
+								<a href="index-2.html" class="site-logo">
+
+
+									<img loading="lazy" src="img/demo-content/logo-colored.png" alt="logo" width="185">
+
+								</a>
+								<p class="fw-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<form class="sign-in-form">
+									<h6 class="text-white">SIGN IN TO YOUR ACCOUNT</h6>
+									<div class="form-item">
+										<input class="input--dark input--squared" type="text" placeholder="Username or email">
+									</div>
+									<div class="form-item">
+										<input class="input--dark input--squared" type="password" placeholder="Password">
+									</div>
+									<div class="form-item">
+										<div class="remember-wrapper text-white">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" name="optionsCheckboxes4">
+
+													Remember Me
+												</label>
+											</div>
+											<a href="#">Lost your password?</a>
+										</div>
+									</div>
+									<div class="form-item">
+										<button type="button" class="crumina-button button--primary button--l w-100">Sign In</button>
+									</div>
+								</form>
+
+								<p class="text-white fw-medium">Sign In with social networks:</p>
+								<ul class="socials">
+									<li>
+										<a href="#">
+
+
+											<img class="crumina-icon " loading="lazy" src="img/theme-content/social-icons/facebook.png" alt="facebook">
+
+										</a>
+									</li>
+									<li>
+										<a href="#">
+
+
+											<img class="crumina-icon " loading="lazy" src="img/theme-content/social-icons/twitter.png" alt="twitter">
+
+										</a>
+									</li>
+									<li>
+										<a href="#">
+
+
+											<img class="crumina-icon " loading="lazy" src="img/theme-content/social-icons/google.png" alt="google">
+
+										</a>
+									</li>
+								</ul>
+
+								<button type="button" class="crumina-button button--grey button--l button--bordered w-100">CREATE AN ACCOUNT</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ... end User Menu Popup -->
+
+
+<div class="main-content-wrapper">
+
+	<section class="crumina-stunning-header stunning-header-bg5">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 mb-4">
+					<div class="page-category">
+						<a href="#" class="page-category-item text-white">
+							Dedicated Server
+						</a>
+					</div>
+					<h1 class="page-title text-white">FULLY-MANAGED DEDICATED SERVER HOSTING</h1>
+					<p class="page-text text-white">Volutpat est velit egestas dui id ornare arcu odio ut. Gravida in fermentum et sollicitudin ac orci. Massa ultricies mi quis hendrerit.</p>
+					<a href="27_pricing_tables.html" class="crumina-button button--dark button--l mt-3">GET STARTED RIGHT NOW</a>
+				</div>
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+
+
+					<img class="crumina-icon " loading="lazy" src="img/demo-content/images/image5.png" alt="servers">
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="crumina-breadcrumbs breadcrumbs--yellow-themes">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<ul class="breadcrumbs">
+						<li class="breadcrumbs-item">
+							<a href="index-2.html">Home</a>
+							<span class="crumina-icon">»</span>
+						</li>
+						<li class="breadcrumbs-item">
+							<a href="02_wp_host.html">Hosting</a>
+						</li>
+						<li class="breadcrumbs-item active">
+							<span>Dedicated Hosting</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="large-section-padding crumina-pricings bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 align-center mb-5 ml-auto mr-auto">
+					<h2>CHOOSE YOUR NEW SERVER</h2>
+					<p class="fs-18 fw-medium">Quisque egestas diam in arcu cursus euismod. Lectus urna duis convallis convallis tellus. Sagittis orci a scelerisque purus semper eget.</p>
+				</div>
+			</div>
+
+			<div class="row pricing-tables-wrap">
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 no-padding mb-4 mb-lg-0">
+					<div class="crumina-module crumina-pricing-tables-item pricing-table--style2">
+						<div class="bg-layer full-block"></div>
+						<div class="main-pricing-content">
+
+							<h5 class="pricing-title">Start</h5>
+
+							<p class="pricing-description">Eu scelerisque felis imperdiet proin fermentum leo.</p>
+
+							<h2 class="h1 rate">$<span class="price" data-annually="199.99/y" data-monthly="19.99/mo">19.99/mo</span>
+							</h2>
+
+							<div class="pricing-onsale">On sale - <span class="pricing-onsale--with-bg">Save 50%</span>
+							</div>
+
+							<div class="pricing-renew"><span class="font-weight-bold">$14.99/mo</span> when you renew*
+							</div>
+
+							<a href="#" class="crumina-button button--lime button--xl w-100">Order Now</a>
+
+							<ul class="pricing-tables-position">
+								<li class="position-item">
+									<span class="font-weight-bold">1GB </span>memory
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">40GB </span>storage
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">Unlimited </span>bandwidth
+									<span class="info-icon info-icon--yellow" data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='font-weight-bold'>FREE Registration Must be Used Within the First Month</span> </br>Adipiscing enim eu turpis egestas pretium aenean pharetra. Iaculis urna id volutpat lacus laoreet non curabitur praesent.">?</span>
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">3 </span>dedicated IPs
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">Free 1-year SSL certificate</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 no-padding mb-4 mb-lg-0">
+					<div class="crumina-module crumina-pricing-tables-item pricing-table--style2">
+						<div class="bg-layer full-block"></div>
+						<div class="main-pricing-content">
+
+							<h5 class="pricing-title">Value</h5>
+
+							<p class="pricing-description">Eu scelerisque felis imperdiet proin fermentum leo.</p>
+
+							<h2 class="h1 rate">$<span class="price" data-annually="249.99/mo" data-monthly="24.99/mo">24.99/mo</span>
+							</h2>
+
+							<div class="pricing-onsale">On sale - <span class="pricing-onsale--with-bg">Save 50%</span>
+							</div>
+
+							<div class="pricing-renew"><span class="font-weight-bold">$39.99/mo</span> when you renew*
+							</div>
+
+							<a href="#" class="crumina-button button--lime button--xl w-100">Order Now</a>
+
+							<ul class="pricing-tables-position">
+								<li class="position-item">
+									<span class="font-weight-bold">2GB </span>memory
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">60GB </span>storage
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">Unlimited </span>bandwidth
+									<span class="info-icon info-icon--yellow" data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='font-weight-bold'>FREE Registration Must be Used Within the First Month</span> </br>Adipiscing enim eu turpis egestas pretium aenean pharetra. Iaculis urna id volutpat lacus laoreet non curabitur praesent.">?</span>
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">3 </span>dedicated IPs
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">Free 1-year SSL certificate</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 no-padding mb-4 mb-lg-0">
+					<div class="crumina-module crumina-pricing-tables-item pricing-table--style2">
+
+						<div class="bg-layer full-block">
+							<div class="pricing-recommended">Recommended</div>
+						</div>
+
+						<div class="main-pricing-content">
+
+							<h5 class="pricing-title">Deluxe</h5>
+
+							<p class="pricing-description">Eu scelerisque felis imperdiet proin fermentum leo.</p>
+
+							<h2 class="h1 rate">$<span class="price" data-annually="399.99/y" data-monthly="39.99/mo">39.99/mo</span>
+							</h2>
+
+							<div class="pricing-onsale">On sale - <span class="pricing-onsale--with-bg">Save 50%</span>
+							</div>
+
+							<div class="pricing-renew"><span class="font-weight-bold">$69.99/mo</span> when you renew*
+							</div>
+
+							<a href="#" class="crumina-button button--lime button--xl w-100">Order Now</a>
+
+							<ul class="pricing-tables-position">
+								<li class="position-item">
+									<span class="font-weight-bold">2GB </span>memory
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">60GB </span>storage
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">Unlimited </span>bandwidth
+									<span class="info-icon info-icon--yellow" data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='font-weight-bold'>FREE Registration Must be Used Within the First Month</span> </br>Adipiscing enim eu turpis egestas pretium aenean pharetra. Iaculis urna id volutpat lacus laoreet non curabitur praesent.">?</span>
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">3 </span>dedicated IPs
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">Free 1-year SSL certificate</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 no-padding">
+					<div class="crumina-module crumina-pricing-tables-item pricing-table--style2">
+						<div class="bg-layer full-block"></div>
+						<div class="main-pricing-content">
+
+							<h5 class="pricing-title">Ultimate</h5>
+
+							<p class="pricing-description">Eu scelerisque felis imperdiet proin fermentum leo.</p>
+
+							<h2 class="h1 rate">$<span class="price" data-annually="749.99/y" data-monthly="74.99/mo">74.99/mo</span>
+							</h2>
+
+							<div class="pricing-onsale">On sale - <span class="pricing-onsale--with-bg">Save 50%</span>
+							</div>
+
+							<div class="pricing-renew"><span class="font-weight-bold">$139.99/mo</span> when you renew*
+							</div>
+
+							<a href="#" class="crumina-button button--lime button--xl w-100">Order Now</a>
+
+							<ul class="pricing-tables-position">
+								<li class="position-item">
+									<span class="font-weight-bold">8GB </span>memory
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">240GB </span>storage
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">Unlimited </span>bandwidth
+									<span class="info-icon info-icon--yellow" data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='font-weight-bold'>FREE Registration Must be Used Within the First Month</span> </br>Adipiscing enim eu turpis egestas pretium aenean pharetra. Iaculis urna id volutpat lacus laoreet non curabitur praesent.">?</span>
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">3 </span>dedicated IPs
+								</li>
+								<li class="position-item">
+									<span class="font-weight-bold">Free 1-year SSL certificate</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-5">
+				<div class="container">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 align-center">
+						<a class="read-more--with-arrow-down" href="#server-specs" data-scroll>
+							Detailed server specs
+							<svg class="crumina-icon">
+								<use xlink:href="#icon-arrow-bottom"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="server-specs" class="large-section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+
+
+					<img class="crumina-icon " loading="lazy" src="img/demo-content/images/image6.png" alt="server">
+
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<h2>DEDICATED SERVER TECHNICAL SPECIFICATIONS</h2>
+					<h6>Virtual Machine Provides:</h6>
+					<ul class="list--standard list--with-border list--icon-yellow">
+						<li>
+							<svg class="crumina-icon">
+								<use xlink:href="#icon-circle"></use>
+							</svg>
+							<a href="#">5,000 SMTP relays</a>
+						</li>
+						<li>
+							<svg class="crumina-icon">
+								<use xlink:href="#icon-circle"></use>
+							</svg>
+							<a href="#">File and DB backups</a>
+						</li>
+						<li>
+							<svg class="crumina-icon">
+								<use xlink:href="#icon-circle"></use>
+							</svg>
+							<a href="#">Linux with cPanel available
+								<span class="actual-info">(managed & fully managed)</span></a>
+						</li>
+						<li>
+							<svg class="crumina-icon">
+								<use xlink:href="#icon-circle"></use>
+							</svg>
+							<a href="#">1 SSL certificate – 1 year free
+								<span class="actual-info">($79.99 renewal annually)</span></a>
+						</li>
+					</ul>
+
+					<h6>Host Server:</h6>
+					<ul class="list--standard list--with-border list--icon-orange">
+						<li>
+							<svg class="crumina-icon">
+								<use xlink:href="#icon-single-arrow"></use>
+							</svg>
+							<a href="#">Processor type: 2x Intel E5-2620v3</a>
+						</li>
+						<li>
+							<svg class="crumina-icon">
+								<use xlink:href="#icon-single-arrow"></use>
+							</svg>
+							<a href="#">Processor Cache: 15M Cache</a>
+						</li>
+						<li>
+							<svg class="crumina-icon">
+								<use xlink:href="#icon-single-arrow"></use>
+							</svg>
+							<a href="#">Processor hard disk: 2x 600GB HDD</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="pt120 bg-grey">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 align-center m-auto">
+					<h2>ADVANTAGES OF A DEDICATED SERVER</h2>
+					<p class="fs-18 fw-medium">Purus gravida quis blandit turpis cursus in hac. Sollicitudin aliquam ultrices sagittis orci a scelerisque. Quisque egestas diam in arcu cursus euismod.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="tabs tabs--style4">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="nav nav-tabs" id="myTab4" role="tablist">
+							<a class="nav-item nav-link active" id="basics-tab" data-toggle="tab" href="#basics" role="tab" aria-controls="basics" aria-selected="true">
+								Basics
+							</a>
+
+							<a class="nav-item nav-link" id="advanced-tab" data-toggle="tab" href="#advanced" role="tab" aria-controls="advanced" aria-selected="false">
+								Advanced
+							</a>
+
+							<a class="nav-item nav-link" id="optional-tab" data-toggle="tab" href="#optional" role="tab" aria-controls="optional" aria-selected="false">
+								Optional
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="tab-content" id="myTabContent4">
+
+				<div class="tab-pane fade show active" id="basics" role="tabpanel" aria-labelledby="basics-tab">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 align-center ml-auto mr-auto">
+								<h3>ADVANCED FEATURES</h3>
+								<p class="fw-medium">Viverra aliquet eget sit amet tellus cras adipiscing. Nunc lobortis mattis aliquam faucibus purus in. Sem nulla pharetra diam sit. At lectus urna duis convallis convallis tellus id interdum.</p>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+								<div class="crumina-module crumina-info-box info-box--icon-left">
+
+									<div class="info-box-thumb-title-wrap">
+										<div class="info-box-thumb">
+
+
+											<img class="crumina-icon " loading="lazy" src="img/demo-content/icons/info-icon7.png" alt="icon">
+
+										</div>
+										<a href="#" class="h5 info-box-title">Multi-Server Management</a>
+									</div>
+
+									<div class="info-box-content">
+										<p class="info-box-text">Sollicitudin ac orci phasellus egestas. Urna nunc id cursus metus aliquam eleifend. Neque vitae tempus quam pellentesque. Volutpat odio facilisis mauris sit amet massa vitae.</p>
+										<a class="read-more--with-arrow" href="#">
+											Read more
+											<svg class="crumina-icon" width="15px" height="9px">
+												<path fill-rule="evenodd" d="M9.427,0.139 C9.236,-0.041 8.919,-0.041 8.722,0.139 C8.531,0.313 8.531,0.602 8.722,0.775 L12.299,4.035 L0.494,4.035 C0.218,4.035 -0.000,4.234 -0.000,4.484 C-0.000,4.737 0.218,4.941 0.494,4.941 L12.299,4.941 L8.722,8.196 C8.531,8.376 8.531,8.665 8.722,8.839 C8.919,9.018 9.237,9.018 9.427,8.839 L13.852,4.807 C14.049,4.633 14.049,4.344 13.852,4.171 L9.427,0.139 Z" />
+											</svg>
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+								<div class="crumina-module crumina-info-box info-box--icon-left">
+
+									<div class="info-box-thumb-title-wrap">
+										<div class="info-box-thumb">
+
+
+											<img class="crumina-icon " loading="lazy" src="img/demo-content/icons/info-icon8.png" alt="icon">
+
+										</div>
+										<a href="#" class="h5 info-box-title">Access Control</a>
+									</div>
+
+									<div class="info-box-content">
+										<p class="info-box-text">Blandit aliquam etiam erat velit scelerisque. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Ullamcorper malesuada proin libero nunc consequat interdum. Diam ut venenatis tellus in metus. Feugiat nisl pretium fusce id velit ut tortor.</p>
+										<a class="read-more--with-arrow" href="#">
+											Read more
+											<svg class="crumina-icon" width="15px" height="9px">
+												<path fill-rule="evenodd" d="M9.427,0.139 C9.236,-0.041 8.919,-0.041 8.722,0.139 C8.531,0.313 8.531,0.602 8.722,0.775 L12.299,4.035 L0.494,4.035 C0.218,4.035 -0.000,4.234 -0.000,4.484 C-0.000,4.737 0.218,4.941 0.494,4.941 L12.299,4.941 L8.722,8.196 C8.531,8.376 8.531,8.665 8.722,8.839 C8.919,9.018 9.237,9.018 9.427,8.839 L13.852,4.807 C14.049,4.633 14.049,4.344 13.852,4.171 L9.427,0.139 Z" />
+											</svg>
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+								<div class="crumina-module crumina-info-box info-box--icon-left">
+
+									<div class="info-box-thumb-title-wrap">
+										<div class="info-box-thumb">
+
+
+											<img class="crumina-icon " loading="lazy" src="img/demo-content/icons/info-icon9.png" alt="icon">
+
+										</div>
+										<a href="#" class="h5 info-box-title">Multi-Server Management</a>
+									</div>
+
+									<div class="info-box-content">
+										<p class="info-box-text">Sollicitudin ac orci phasellus egestas. Urna nunc id cursus metus aliquam eleifend. Neque vitae tempus quam pellentesque. Volutpat odio facilisis mauris sit amet massa vitae.</p>
+										<a class="read-more--with-arrow" href="#">
+											Read more
+											<svg class="crumina-icon" width="15px" height="9px">
+												<path fill-rule="evenodd" d="M9.427,0.139 C9.236,-0.041 8.919,-0.041 8.722,0.139 C8.531,0.313 8.531,0.602 8.722,0.775 L12.299,4.035 L0.494,4.035 C0.218,4.035 -0.000,4.234 -0.000,4.484 C-0.000,4.737 0.218,4.941 0.494,4.941 L12.299,4.941 L8.722,8.196 C8.531,8.376 8.531,8.665 8.722,8.839 C8.919,9.018 9.237,9.018 9.427,8.839 L13.852,4.807 C14.049,4.633 14.049,4.344 13.852,4.171 L9.427,0.139 Z" />
+											</svg>
+										</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="advanced" role="tabpanel" aria-labelledby="advanced-tab">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 align-center ml-auto mr-auto">
+								<h3>ADVANCED FEATURES</h3>
+								<p class="fw-medium">Viverra aliquet eget sit amet tellus cras adipiscing. Nunc lobortis mattis aliquam faucibus purus in. Sem nulla pharetra diam sit. At lectus urna duis convallis convallis tellus id interdum.</p>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+								<div class="crumina-module crumina-info-box info-box--icon-left">
+
+									<div class="info-box-thumb-title-wrap">
+										<div class="info-box-thumb">
+
+
+											<img class="crumina-icon " loading="lazy" src="img/demo-content/icons/info-icon7.png" alt="icon">
+
+										</div>
+										<a href="#" class="h5 info-box-title">Multi-Server Management</a>
+									</div>
+
+									<div class="info-box-content">
+										<p class="info-box-text">Sollicitudin ac orci phasellus egestas. Urna nunc id cursus metus aliquam eleifend. Neque vitae tempus quam pellentesque. Volutpat odio facilisis mauris sit amet massa vitae.</p>
+										<a class="read-more--with-arrow" href="#">
+											Read more
+											<svg class="crumina-icon" width="15px" height="9px">
+												<path fill-rule="evenodd" d="M9.427,0.139 C9.236,-0.041 8.919,-0.041 8.722,0.139 C8.531,0.313 8.531,0.602 8.722,0.775 L12.299,4.035 L0.494,4.035 C0.218,4.035 -0.000,4.234 -0.000,4.484 C-0.000,4.737 0.218,4.941 0.494,4.941 L12.299,4.941 L8.722,8.196 C8.531,8.376 8.531,8.665 8.722,8.839 C8.919,9.018 9.237,9.018 9.427,8.839 L13.852,4.807 C14.049,4.633 14.049,4.344 13.852,4.171 L9.427,0.139 Z" />
+											</svg>
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+								<div class="crumina-module crumina-info-box info-box--icon-left">
+
+									<div class="info-box-thumb-title-wrap">
+										<div class="info-box-thumb">
+
+
+											<img class="crumina-icon " loading="lazy" src="img/demo-content/icons/info-icon8.png" alt="icon">
+
+										</div>
+										<a href="#" class="h5 info-box-title">Access Control</a>
+									</div>
+
+									<div class="info-box-content">
+										<p class="info-box-text">Blandit aliquam etiam erat velit scelerisque. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Ullamcorper malesuada proin libero nunc consequat interdum. Diam ut venenatis tellus in metus. Feugiat nisl pretium fusce id velit ut tortor.</p>
+										<a class="read-more--with-arrow" href="#">
+											Read more
+											<svg class="crumina-icon" width="15px" height="9px">
+												<path fill-rule="evenodd" d="M9.427,0.139 C9.236,-0.041 8.919,-0.041 8.722,0.139 C8.531,0.313 8.531,0.602 8.722,0.775 L12.299,4.035 L0.494,4.035 C0.218,4.035 -0.000,4.234 -0.000,4.484 C-0.000,4.737 0.218,4.941 0.494,4.941 L12.299,4.941 L8.722,8.196 C8.531,8.376 8.531,8.665 8.722,8.839 C8.919,9.018 9.237,9.018 9.427,8.839 L13.852,4.807 C14.049,4.633 14.049,4.344 13.852,4.171 L9.427,0.139 Z" />
+											</svg>
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+								<div class="crumina-module crumina-info-box info-box--icon-left">
+
+									<div class="info-box-thumb-title-wrap">
+										<div class="info-box-thumb">
+
+
+											<img class="crumina-icon " loading="lazy" src="img/demo-content/icons/info-icon9.png" alt="icon">
+
+										</div>
+										<a href="#" class="h5 info-box-title">Multi-Server Management</a>
+									</div>
+
+									<div class="info-box-content">
+										<p class="info-box-text">Sollicitudin ac orci phasellus egestas. Urna nunc id cursus metus aliquam eleifend. Neque vitae tempus quam pellentesque. Volutpat odio facilisis mauris sit amet massa vitae.</p>
+										<a class="read-more--with-arrow" href="#">
+											Read more
+											<svg class="crumina-icon" width="15px" height="9px">
+												<path fill-rule="evenodd" d="M9.427,0.139 C9.236,-0.041 8.919,-0.041 8.722,0.139 C8.531,0.313 8.531,0.602 8.722,0.775 L12.299,4.035 L0.494,4.035 C0.218,4.035 -0.000,4.234 -0.000,4.484 C-0.000,4.737 0.218,4.941 0.494,4.941 L12.299,4.941 L8.722,8.196 C8.531,8.376 8.531,8.665 8.722,8.839 C8.919,9.018 9.237,9.018 9.427,8.839 L13.852,4.807 C14.049,4.633 14.049,4.344 13.852,4.171 L9.427,0.139 Z" />
+											</svg>
+										</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="optional" role="tabpanel" aria-labelledby="optional-tab">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 align-center ml-auto mr-auto">
+								<h3>ADVANCED FEATURES</h3>
+								<p class="fw-medium">Viverra aliquet eget sit amet tellus cras adipiscing. Nunc lobortis mattis aliquam faucibus purus in. Sem nulla pharetra diam sit. At lectus urna duis convallis convallis tellus id interdum.</p>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+								<div class="crumina-module crumina-info-box info-box--icon-left">
+
+									<div class="info-box-thumb-title-wrap">
+										<div class="info-box-thumb">
+
+
+											<img class="crumina-icon " loading="lazy" src="img/demo-content/icons/info-icon7.png" alt="icon">
+
+										</div>
+										<a href="#" class="h5 info-box-title">Multi-Server Management</a>
+									</div>
+
+									<div class="info-box-content">
+										<p class="info-box-text">Sollicitudin ac orci phasellus egestas. Urna nunc id cursus metus aliquam eleifend. Neque vitae tempus quam pellentesque. Volutpat odio facilisis mauris sit amet massa vitae.</p>
+										<a class="read-more--with-arrow" href="#">
+											Read more
+											<svg class="crumina-icon" width="15px" height="9px">
+												<path fill-rule="evenodd" d="M9.427,0.139 C9.236,-0.041 8.919,-0.041 8.722,0.139 C8.531,0.313 8.531,0.602 8.722,0.775 L12.299,4.035 L0.494,4.035 C0.218,4.035 -0.000,4.234 -0.000,4.484 C-0.000,4.737 0.218,4.941 0.494,4.941 L12.299,4.941 L8.722,8.196 C8.531,8.376 8.531,8.665 8.722,8.839 C8.919,9.018 9.237,9.018 9.427,8.839 L13.852,4.807 C14.049,4.633 14.049,4.344 13.852,4.171 L9.427,0.139 Z" />
+											</svg>
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+								<div class="crumina-module crumina-info-box info-box--icon-left">
+
+									<div class="info-box-thumb-title-wrap">
+										<div class="info-box-thumb">
+
+
+											<img class="crumina-icon " loading="lazy" src="img/demo-content/icons/info-icon8.png" alt="icon">
+
+										</div>
+										<a href="#" class="h5 info-box-title">Access Control</a>
+									</div>
+
+									<div class="info-box-content">
+										<p class="info-box-text">Blandit aliquam etiam erat velit scelerisque. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Ullamcorper malesuada proin libero nunc consequat interdum. Diam ut venenatis tellus in metus. Feugiat nisl pretium fusce id velit ut tortor.</p>
+										<a class="read-more--with-arrow" href="#">
+											Read more
+											<svg class="crumina-icon" width="15px" height="9px">
+												<path fill-rule="evenodd" d="M9.427,0.139 C9.236,-0.041 8.919,-0.041 8.722,0.139 C8.531,0.313 8.531,0.602 8.722,0.775 L12.299,4.035 L0.494,4.035 C0.218,4.035 -0.000,4.234 -0.000,4.484 C-0.000,4.737 0.218,4.941 0.494,4.941 L12.299,4.941 L8.722,8.196 C8.531,8.376 8.531,8.665 8.722,8.839 C8.919,9.018 9.237,9.018 9.427,8.839 L13.852,4.807 C14.049,4.633 14.049,4.344 13.852,4.171 L9.427,0.139 Z" />
+											</svg>
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+								<div class="crumina-module crumina-info-box info-box--icon-left">
+
+									<div class="info-box-thumb-title-wrap">
+										<div class="info-box-thumb">
+
+
+											<img class="crumina-icon " loading="lazy" src="img/demo-content/icons/info-icon9.png" alt="icon">
+
+										</div>
+										<a href="#" class="h5 info-box-title">Multi-Server Management</a>
+									</div>
+
+									<div class="info-box-content">
+										<p class="info-box-text">Sollicitudin ac orci phasellus egestas. Urna nunc id cursus metus aliquam eleifend. Neque vitae tempus quam pellentesque. Volutpat odio facilisis mauris sit amet massa vitae.</p>
+										<a class="read-more--with-arrow" href="#">
+											Read more
+											<svg class="crumina-icon" width="15px" height="9px">
+												<path fill-rule="evenodd" d="M9.427,0.139 C9.236,-0.041 8.919,-0.041 8.722,0.139 C8.531,0.313 8.531,0.602 8.722,0.775 L12.299,4.035 L0.494,4.035 C0.218,4.035 -0.000,4.234 -0.000,4.484 C-0.000,4.737 0.218,4.941 0.494,4.941 L12.299,4.941 L8.722,8.196 C8.531,8.376 8.531,8.665 8.722,8.839 C8.919,9.018 9.237,9.018 9.427,8.839 L13.852,4.807 C14.049,4.633 14.049,4.344 13.852,4.171 L9.427,0.139 Z" />
+											</svg>
+										</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="large-section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 mb-3">
+					<h2>LEVELS OF MANAGEMENT</h2>
+					<p class="fs-18 fw-medium">Blandit aliquam etiam erat velit scelerisque. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Ullamcorper malesuada proin libero nunc consequat interdum. Diam ut venenatis tellus in metus nisl pretium fusce id velit ut tortor.</p>
+				</div>
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<table class="table--style1">
+						<thead>
+						<tr>
+							<th></th>
+							<th>Self-managed</th>
+							<th>Managed</th>
+							<th>Fully managed</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>Monitoring
+								<span class="info-icon" data-toggle="tooltip" data-placement="right" title="Dolor in reprehenderit in voluptate velit esse cillum dolore eu.">?</span>
+							</td>
+							<td>Proactive: Network & host</td>
+							<td>Proactive: Network & host reactive: container (stats via NodePing)</td>
+							<td>Proactive: Network, host, container (stats via NodePing)</td>
+						</tr>
+						<tr>
+							<td>Patching</td>
+							<td>
+								<svg class="crumina-icon icon-minus">
+									<use xlink:href="#icon-minus"></use>
+								</svg>
+							</td>
+							<td>
+								<svg class="crumina-icon icon-check">
+									<use xlink:href="#icon-check"></use>
+								</svg>
+							</td>
+							<td>
+								<svg class="crumina-icon icon-check">
+									<use xlink:href="#icon-check"></use>
+								</svg>
+							</td>
+						</tr>
+						<tr>
+							<td>Root access
+								<span class="info-icon info-icon--yellow" data-toggle="tooltip" data-placement="right" title="Dolor in reprehenderit in voluptate velit esse cillum dolore eu.">?</span>
+							</td>
+							<td>
+								<svg class="crumina-icon icon-check">
+									<use xlink:href="#icon-check"></use>
+								</svg>
+							</td>
+							<td>1-click enable</td>
+							<td>1-click enable</td>
+						</tr>
+						<tr>
+							<td>Control panel
+								<span class="info-icon info-icon--yellow" data-toggle="tooltip" data-placement="right" title="Dolor in reprehenderit in voluptate velit esse cillum dolore eu.">?</span>
+							</td>
+							<td>
+								<svg class="crumina-icon icon-minus">
+									<use xlink:href="#icon-minus"></use>
+								</svg>
+							</td>
+							<td>
+								<svg class="crumina-icon icon-check">
+									<use xlink:href="#icon-check"></use>
+								</svg>
+							</td>
+							<td>
+								<svg class="crumina-icon icon-check">
+									<use xlink:href="#icon-check"></use>
+								</svg>
+							</td>
+						</tr>
+						<tr>
+							<td>APP installs & updates
+								<span class="info-icon info-icon--yellow" data-toggle="tooltip" data-placement="right" title="Dolor in reprehenderit in voluptate velit esse cillum dolore eu.">?</span>
+							</td>
+							<td>
+								<svg class="crumina-icon icon-minus">
+									<use xlink:href="#icon-minus"></use>
+								</svg>
+							</td>
+							<td>
+								<svg class="crumina-icon icon-check">
+									<use xlink:href="#icon-check"></use>
+								</svg>
+							</td>
+							<td>
+								<svg class="crumina-icon icon-check">
+									<use xlink:href="#icon-check"></use>
+								</svg>
+							</td>
+						</tr>
+						<tr>
+							<td>Backups (snapshot)</td>
+							<td>Disaster recovery only</td>
+							<td>Disaster recovery w/ On-demand (1 snapshot)</td>
+							<td>Disaster recovery w/ On-demand (1 snapshot)</td>
+						</tr>
+						<tr>
+							<td>Migrations
+								<span class="info-icon info-icon--yellow" data-toggle="tooltip" data-placement="right" title="Dolor in reprehenderit in voluptate velit esse cillum dolore eu.">?</span>
+							</td>
+							<td>
+								<svg class="crumina-icon icon-minus">
+									<use xlink:href="#icon-minus"></use>
+								</svg>
+							</td>
+							<td>Optional</td>
+							<td>
+								<svg class="crumina-icon icon-check">
+									<use xlink:href="#icon-check"></use>
+								</svg>
+							</td>
+						</tr>
+						<tr>
+							<td>Support
+								<span class="info-icon info-icon--yellow" data-toggle="tooltip" data-placement="right" title="Dolor in reprehenderit in voluptate velit esse cillum dolore eu.">?</span>
+							</td>
+							<td>
+								<svg class="crumina-icon icon-minus">
+									<use xlink:href="#icon-minus"></use>
+								</svg>
+							</td>
+							<td>Optional</td>
+							<td>
+								<svg class="crumina-icon icon-check">
+									<use xlink:href="#icon-check"></use>
+								</svg>
+							</td>
+						</tr>
+						<tr>
+							<td>Dedicated IPs</td>
+							<td>1</td>
+							<td>3</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td>SMTP email relays</td>
+							<td>5.000</td>
+							<td>5.000</td>
+							<td>5.000</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="large-section-padding">
+		<div class="container">
+			<div class="row align-items-center">
+
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0 ">
+					<div class="crumina-module crumina-info-box info-box--thumb-left">
+
+						<div class="info-box-thumb">
+
+
+							<img class="crumina-icon " loading="lazy" src="img/demo-content/icons/info-icon19.png" alt="support">
+
+						</div>
+
+						<div class="info-box-content">
+							<h2 class="info-box-title">TALK TO A DEDICATED SERVER SPECIALIST</h2>
+							<p class="info-box-text">Blandit aliquam etiam erat velit scelerisque. Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere.</p>
+							<a href="17_contacts.html" class="contact-info">
+								<svg class="crumina-icon">
+									<use xlink:href="#icon-comment"></use>
+								</svg>
+								Contact Information
+							</a>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<form>
+						<div class="form-item">
+							<input class="input--grey input--squared" type="text" placeholder="Your Name">
+						</div>
+						<div class="form-item">
+							<input class="input--grey input--squared" type="email" placeholder="Email Address">
+						</div>
+						<div class="form-item">
+							<textarea class="input--grey input--squared" placeholder="How can we help you?" rows="4"></textarea>
+						</div>
+						<div class="form-item">
+							<button type="button" class="crumina-button button--lime button--l mt-3">SEND A MESSAGE</button>
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="large-section-padding bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 align-center ml-auto mr-auto mb-5">
+					<h3>FREQUENTLY ASKED QUESTIONS</h3>
+					<p class="fw-medium">Purus gravida quis blandit turpis cursus in hac. Sollicitudin aliquam ultrices sagittis orci a scelerisque. Quisque egestas diam in arcu cursus euismod.</p>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="accordion crumina-module crumina-accordion accordion--style3" id="accordion3">
+						<div class="card">
+							<div class="card-header" id="headingOne3">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+										What is Dedicated Hosting?
+										<span class="icons">
+											<svg class="crumina-icon icon-plus"><use xlink:href="#icon-plus"></use></svg>
+											<svg class="crumina-icon active icon-minus"><use xlink:href="#icon-minus"></use></svg>
+										</span>
+									</button>
+								</h2>
+							</div>
+
+							<div id="collapseOne3" class="collapse show" aria-labelledby="headingOne3" data-parent="#accordion3">
+								<div class="card-body">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim metus aliquam eleifend.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo3">
+								<h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3">
+										Shared Hosting vs Dedicated Hosting
+										<span class="icons">
+											<svg class="crumina-icon icon-plus"><use xlink:href="#icon-plus"></use></svg>
+											<svg class="crumina-icon active icon-minus"><use xlink:href="#icon-minus"></use></svg>
+										</span>
+									</button>
+								</h2>
+							</div>
+							<div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordion3">
+								<div class="card-body">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim metus aliquam eleifend.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingThree3">
+								<h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+										What can you do with a Dedicated Server?
+										<span class="icons">
+											<svg class="crumina-icon icon-plus"><use xlink:href="#icon-plus"></use></svg>
+											<svg class="crumina-icon active icon-minus"><use xlink:href="#icon-minus"></use></svg>
+										</span>
+									</button>
+								</h2>
+							</div>
+							<div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordion3">
+								<div class="card-body">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim metus aliquam eleifend.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingFour3">
+								<h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour3" aria-expanded="false" aria-controls="collapseFour3">
+										What are the reasons to choose a Dedicated Server?
+										<span class="icons">
+											<svg class="crumina-icon icon-plus"><use xlink:href="#icon-plus"></use></svg>
+											<svg class="crumina-icon active icon-minus"><use xlink:href="#icon-minus"></use></svg>
+										</span>
+									</button>
+								</h2>
+							</div>
+							<div id="collapseFour3" class="collapse" aria-labelledby="headingFour3" data-parent="#accordion3">
+								<div class="card-body">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim metus aliquam eleifend.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingFive3">
+								<h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive3" aria-expanded="false" aria-controls="collapseFive3">
+										Do I need Dedicated Hosting?
+										<span class="icons">
+											<svg class="crumina-icon icon-plus"><use xlink:href="#icon-plus"></use></svg>
+											<svg class="crumina-icon active icon-minus"><use xlink:href="#icon-minus"></use></svg>
+										</span>
+									</button>
+								</h2>
+							</div>
+							<div id="collapseFive3" class="collapse" aria-labelledby="headingFive3" data-parent="#accordion3">
+								<div class="card-body">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim metus aliquam eleifend.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="accordion crumina-module crumina-accordion accordion--style3" id="accordion4">
+						<div class="card">
+							<div class="card-header" id="headingOne4">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
+										VPS vs Dedicated Hosting
+										<span class="icons">
+											<svg class="crumina-icon icon-plus"><use xlink:href="#icon-plus"></use></svg>
+											<svg class="crumina-icon active icon-minus"><use xlink:href="#icon-minus"></use></svg>
+										</span>
+									</button>
+								</h2>
+							</div>
+
+							<div id="collapseOne4" class="collapse show" aria-labelledby="headingOne4" data-parent="#accordion4">
+								<div class="card-body">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim metus aliquam eleifend.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo4">
+								<h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo4" aria-expanded="false" aria-controls="collapseTwo4">
+										What’s included with a Dedicated Server?
+										<span class="icons">
+											<svg class="crumina-icon icon-plus"><use xlink:href="#icon-plus"></use></svg>
+											<svg class="crumina-icon active icon-minus"><use xlink:href="#icon-minus"></use></svg>
+										</span>
+									</button>
+								</h2>
+							</div>
+							<div id="collapseTwo4" class="collapse" aria-labelledby="headingTwo4" data-parent="#accordion4">
+								<div class="card-body">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim metus aliquam eleifend.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingThree4">
+								<h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
+										Shared Hosting vs Dedicated Hosting
+										<span class="icons">
+											<svg class="crumina-icon icon-plus"><use xlink:href="#icon-plus"></use></svg>
+											<svg class="crumina-icon active icon-minus"><use xlink:href="#icon-minus"></use></svg>
+										</span>
+									</button>
+								</h2>
+							</div>
+							<div id="collapseThree4" class="collapse" aria-labelledby="headingThree4" data-parent="#accordion4">
+								<div class="card-body">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim metus aliquam eleifend.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingFour4">
+								<h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour4" aria-expanded="false" aria-controls="collapseFour4">
+										What are the reasons to not use a Dedicated Server?
+										<span class="icons">
+											<svg class="crumina-icon icon-plus"><use xlink:href="#icon-plus"></use></svg>
+											<svg class="crumina-icon active icon-minus"><use xlink:href="#icon-minus"></use></svg>
+										</span>
+									</button>
+								</h2>
+							</div>
+							<div id="collapseFour4" class="collapse" aria-labelledby="headingFour4" data-parent="#accordion4">
+								<div class="card-body">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim metus aliquam eleifend.
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingFive4">
+								<h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive4" aria-expanded="false" aria-controls="collapseFive4">
+										What do you need with a Dedicated Server?
+										<span class="icons">
+											<svg class="crumina-icon icon-plus"><use xlink:href="#icon-plus"></use></svg>
+											<svg class="crumina-icon active icon-minus"><use xlink:href="#icon-minus"></use></svg>
+										</span>
+									</button>
+								</h2>
+							</div>
+							<div id="collapseFive4" class="collapse" aria-labelledby="headingFive4" data-parent="#accordion4">
+								<div class="card-body">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim metus aliquam eleifend.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="medium-section-padding section-bg2">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 align-center">
+					<h5 class="text-white">MOST POWERFUL WEB HOSTING SOLUTION</h5>
+					<a href="#" class="crumina-button button--dark button--l">TRY NOW FOR FREE</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>
+
+
+<!-- Footer -->
+
+<footer id="site-footer" class="footer footer--dark footer--with-decoration">
+
+	<div class="footer-content">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+					<div class="widget widget_links">
+						<h5 class="widget-title">
+							Hosting
+						</h5>
+						<ul>
+							<li>
+								<a href="02_wp_host.html">
+									WordPress Hosting
+									<svg class="crumina-icon">
+										<use xlink:href="#icon-triangle-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="03_shared_host.html">
+									Shared Hosting
+									<svg class="crumina-icon">
+										<use xlink:href="#icon-triangle-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="04_vps_host.html">
+									VPS Hosting
+									<svg class="crumina-icon">
+										<use xlink:href="#icon-triangle-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="05_dedicated_server.html">
+									Dedicated Server
+									<svg class="crumina-icon">
+										<use xlink:href="#icon-triangle-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="06_cloud_hosting.html">
+									Cloud Hosting
+									<svg class="crumina-icon">
+										<use xlink:href="#icon-triangle-arrow"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+					<div class="widget widget_links">
+						<h5 class="widget-title">
+							Domains
+						</h5>
+						<ul>
+							<li>
+								<a href="07_domains.html">
+									Register Domains
+									<svg class="crumina-icon">
+										<use xlink:href="#icon-triangle-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="08_domain_checking.html">
+									Transfer Domains
+									<svg class="crumina-icon">
+										<use xlink:href="#icon-triangle-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="18_status_page.html">
+									Manage Domains
+									<svg class="crumina-icon">
+										<use xlink:href="#icon-triangle-arrow"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+					<div class="widget widget_links">
+						<h5 class="widget-title">
+							Company
+						</h5>
+						<ul>
+							<li>
+								<a href="09_about.html">
+									About Us
+									<svg class="crumina-icon">
+										<use xlink:href="#icon-triangle-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="10_knowledge_base.html">
+									Support
+									<svg class="crumina-icon">
+										<use xlink:href="#icon-triangle-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="15_blog.html">
+									Blog
+									<svg class="crumina-icon">
+										<use xlink:href="#icon-triangle-arrow"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="17_contacts.html">
+									Contacts
+									<svg class="crumina-icon">
+										<use xlink:href="#icon-triangle-arrow"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-0 mb-lg-0">
+					<div class="widget w-info">
+						<a href="index-2.html" class="site-logo">
+
+
+							<img loading="lazy" src="img/demo-content/logo-white.png" alt="logo" width="185">
+
+						</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						<ul class="socials">
+							<li>
+								<a href="#">
+
+
+									<img class="crumina-icon " loading="lazy" src="img/theme-content/social-icons/facebook.png" alt="facebook">
+
+								</a>
+							</li>
+							<li>
+								<a href="#">
+
+
+									<img class="crumina-icon " loading="lazy" src="img/theme-content/social-icons/twitter.png" alt="twitter">
+
+								</a>
+							</li>
+							<li>
+								<a href="#">
+
+
+									<img class="crumina-icon " loading="lazy" src="img/theme-content/social-icons/google.png" alt="google">
+
+								</a>
+							</li>
+							<li>
+								<a href="#">
+
+
+									<img class="crumina-icon " loading="lazy" src="img/theme-content/social-icons/youtube.png" alt="youtube">
+
+								</a>
+							</li>
+							<li>
+								<a href="#">
+
+
+									<img class="crumina-icon " loading="lazy" src="img/theme-content/social-icons/rss.png" alt="rss">
+
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-subscribe-panel">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+					<h5 class="footer-subscribe-panel-title text-white">SUBSCRIBE TO OUR NEWSLETTER</h5>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+					<span class="footer-subscribe-panel-subtitle"><span class="font-weight-bold">Join Our Newsletter & Marketing Communication.</span> We'll send you news and offers.</span>
+				</div>
+				<div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 mb-0 mb-lg-0">
+					<form class="footer-subscribe-form">
+						<div class="input-btn--inline">
+							<input class="input--dark" type="text" placeholder="Choose your new web address…">
+							<button type="button" class="crumina-button button--lime button--l">SEARCH</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sub-footer bg-black">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-0 mb-lg-0">
+					<div class="copyright">
+						<span>Copyright © 2019 <a href="index-2.html">Hostsight</a>, Designed by <a href="https://themeforest.net/user/themefire/portfolio">themefire</a> Developed by <a href="https://crumina.net/">Crumina</a> Only on <a href="https://themeforest.net/">Envato Market</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<a class="back-to-top" href="#">
+		<svg class="crumina-icon">
+			<use xlink:href="#icon-to-top"></use>
+		</svg>
+	</a>
+</footer>
+
+<!-- ... end Footer -->
+
+
+<script src="js/jquery.min.js"></script>
+
+<script src="js/Bootstrap/bootstrap.bundle.min.js"></script>
+
+<script src="js/js-plugins/navigation.min.js"></script>
+<!--<script src="js/js-plugins/select2.min.js"></script>-->
+<script src="js/js-plugins/material.min.js"></script>
+<script src="js/js-plugins/swiper.min.js"></script>
+<!--<script src="js/js-plugins/jquery-countTo.min.js"></script>-->
+<!--<script src="js/js-plugins/waypoints.min.js"></script>-->
+<!--<script src="js/js-plugins/leaflet.min.js"></script>-->
+<!--<script src="js/js-plugins/MarkerClusterGroup.min.js"></script>-->
+<!--<script src="js/js-plugins/jquery.magnific-popup.min.js"></script>-->
+<!--<script src="js/js-plugins/TimeCircles.min.js"></script>-->
+<script src="js/js-plugins/smooth-scroll.min.js"></script>
+<script src="js/js-plugins/jquery.matchHeight.min.js"></script>
+<!--<script src="js/js-plugins/imagesLoaded.min.js"></script>-->
+<!--<script src="js/js-plugins/isotope.pkgd.min.js"></script>-->
+<!--<script src="js/js-plugins/ajax-pagination.min.js"></script>-->
+<!--<script src="js/js-plugins/Chart.min.js"></script>-->
+<!--<script src="js/js-plugins/chartjs-plugin-deferred.min.js"></script>-->
+
+
+<script src="js/main.js"></script>
+<!--<script src="js/js-plugins/leaflet-init.js"></script>-->
+
+<!-- jQuery-scripts for Modules (Send Message) -->
+<!--<script src="modules/forms/src/js/jquery.validate.min.js"></script>-->
+<!--<script src="modules/forms/src/js/sweetalert2.all.js"></script>-->
+<!--<script src="modules/forms/src/js/scripts.js"></script>-->
+
+<!-- SVG icons loader -->
+<script src="js/svg-loader.js"></script>
+<!-- /SVG icons loader -->
+
+</body>
+
+<!-- Mirrored from html.crumina.net/hostsite/05_dedicated_server.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jul 2020 06:30:01 GMT -->
+</html>
